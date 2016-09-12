@@ -12,6 +12,8 @@
 		857860B61D86C7EC001F6C84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857860B51D86C7EC001F6C84 /* Assets.xcassets */; };
 		857860B91D86C7EC001F6C84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 857860B71D86C7EC001F6C84 /* Main.storyboard */; };
 		857860C41D86C7EC001F6C84 /* SickleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857860C31D86C7EC001F6C84 /* SickleTests.swift */; };
+		857860CF1D86CBF6001F6C84 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857860CE1D86CBF6001F6C84 /* ListViewController.swift */; };
+		857860D11D86D424001F6C84 /* FolderMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857860D01D86D424001F6C84 /* FolderMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		857860BF1D86C7EC001F6C84 /* SickleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SickleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		857860C31D86C7EC001F6C84 /* SickleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SickleTests.swift; sourceTree = "<group>"; };
 		857860C51D86C7EC001F6C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		857860CE1D86CBF6001F6C84 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		857860D01D86D424001F6C84 /* FolderMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolderMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				857860B51D86C7EC001F6C84 /* Assets.xcassets */,
 				857860B71D86C7EC001F6C84 /* Main.storyboard */,
 				857860BA1D86C7EC001F6C84 /* Info.plist */,
+				857860CE1D86CBF6001F6C84 /* ListViewController.swift */,
+				857860D01D86D424001F6C84 /* FolderMonitor.swift */,
 			);
 			path = Sickle;
 			sourceTree = "<group>";
@@ -199,6 +205,8 @@
 			files = (
 				857860B41D86C7EC001F6C84 /* ViewController.swift in Sources */,
 				857860B21D86C7EC001F6C84 /* AppDelegate.swift in Sources */,
+				857860D11D86D424001F6C84 /* FolderMonitor.swift in Sources */,
+				857860CF1D86CBF6001F6C84 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
