@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		857860B21D86C7EC001F6C84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857860B11D86C7EC001F6C84 /* AppDelegate.swift */; };
+		857860B41D86C7EC001F6C84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857860B31D86C7EC001F6C84 /* ViewController.swift */; };
+		857860B61D86C7EC001F6C84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857860B51D86C7EC001F6C84 /* Assets.xcassets */; };
+		857860B91D86C7EC001F6C84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 857860B71D86C7EC001F6C84 /* Main.storyboard */; };
+		857860C41D86C7EC001F6C84 /* SickleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857860C31D86C7EC001F6C84 /* SickleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		857860C01D86C7EC001F6C84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 857860A61D86C7EC001F6C84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 857860AD1D86C7EC001F6C84;
+			remoteInfo = Sickle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		857860AE1D86C7EC001F6C84 /* Sickle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sickle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		857860B11D86C7EC001F6C84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		857860B31D86C7EC001F6C84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		857860B51D86C7EC001F6C84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		857860B81D86C7EC001F6C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		857860BA1D86C7EC001F6C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		857860BF1D86C7EC001F6C84 /* SickleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SickleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		857860C31D86C7EC001F6C84 /* SickleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SickleTests.swift; sourceTree = "<group>"; };
+		857860C51D86C7EC001F6C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		857860AB1D86C7EC001F6C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857860BC1D86C7EC001F6C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		857860A51D86C7EC001F6C84 = {
+			isa = PBXGroup;
+			children = (
+				857860B01D86C7EC001F6C84 /* Sickle */,
+				857860C21D86C7EC001F6C84 /* SickleTests */,
+				857860AF1D86C7EC001F6C84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		857860AF1D86C7EC001F6C84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				857860AE1D86C7EC001F6C84 /* Sickle.app */,
+				857860BF1D86C7EC001F6C84 /* SickleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		857860B01D86C7EC001F6C84 /* Sickle */ = {
+			isa = PBXGroup;
+			children = (
+				857860B11D86C7EC001F6C84 /* AppDelegate.swift */,
+				857860B31D86C7EC001F6C84 /* ViewController.swift */,
+				857860B51D86C7EC001F6C84 /* Assets.xcassets */,
+				857860B71D86C7EC001F6C84 /* Main.storyboard */,
+				857860BA1D86C7EC001F6C84 /* Info.plist */,
+			);
+			path = Sickle;
+			sourceTree = "<group>";
+		};
+		857860C21D86C7EC001F6C84 /* SickleTests */ = {
+			isa = PBXGroup;
+			children = (
+				857860C31D86C7EC001F6C84 /* SickleTests.swift */,
+				857860C51D86C7EC001F6C84 /* Info.plist */,
+			);
+			path = SickleTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		857860AD1D86C7EC001F6C84 /* Sickle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 857860C81D86C7EC001F6C84 /* Build configuration list for PBXNativeTarget "Sickle" */;
+			buildPhases = (
+				857860AA1D86C7EC001F6C84 /* Sources */,
+				857860AB1D86C7EC001F6C84 /* Frameworks */,
+				857860AC1D86C7EC001F6C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sickle;
+			productName = Sickle;
+			productReference = 857860AE1D86C7EC001F6C84 /* Sickle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		857860BE1D86C7EC001F6C84 /* SickleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 857860CB1D86C7EC001F6C84 /* Build configuration list for PBXNativeTarget "SickleTests" */;
+			buildPhases = (
+				857860BB1D86C7EC001F6C84 /* Sources */,
+				857860BC1D86C7EC001F6C84 /* Frameworks */,
+				857860BD1D86C7EC001F6C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				857860C11D86C7EC001F6C84 /* PBXTargetDependency */,
+			);
+			name = SickleTests;
+			productName = SickleTests;
+			productReference = 857860BF1D86C7EC001F6C84 /* SickleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		857860A61D86C7EC001F6C84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Émeraude";
+				TargetAttributes = {
+					857860AD1D86C7EC001F6C84 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7J476239ZT;
+						ProvisioningStyle = Automatic;
+					};
+					857860BE1D86C7EC001F6C84 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7J476239ZT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 857860AD1D86C7EC001F6C84;
+					};
+				};
+			};
+			buildConfigurationList = 857860A91D86C7EC001F6C84 /* Build configuration list for PBXProject "Sickle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 857860A51D86C7EC001F6C84;
+			productRefGroup = 857860AF1D86C7EC001F6C84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				857860AD1D86C7EC001F6C84 /* Sickle */,
+				857860BE1D86C7EC001F6C84 /* SickleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		857860AC1D86C7EC001F6C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857860B61D86C7EC001F6C84 /* Assets.xcassets in Resources */,
+				857860B91D86C7EC001F6C84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857860BD1D86C7EC001F6C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		857860AA1D86C7EC001F6C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857860B41D86C7EC001F6C84 /* ViewController.swift in Sources */,
+				857860B21D86C7EC001F6C84 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857860BB1D86C7EC001F6C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857860C41D86C7EC001F6C84 /* SickleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		857860C11D86C7EC001F6C84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 857860AD1D86C7EC001F6C84 /* Sickle */;
+			targetProxy = 857860C01D86C7EC001F6C84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		857860B71D86C7EC001F6C84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				857860B81D86C7EC001F6C84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		857860C61D86C7EC001F6C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		857860C71D86C7EC001F6C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		857860C91D86C7EC001F6C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7J476239ZT;
+				INFOPLIST_FILE = Sickle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.emeraude.Sickle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		857860CA1D86C7EC001F6C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7J476239ZT;
+				INFOPLIST_FILE = Sickle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.emeraude.Sickle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		857860CC1D86C7EC001F6C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7J476239ZT;
+				INFOPLIST_FILE = SickleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.emeraude.SickleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sickle.app/Contents/MacOS/Sickle";
+			};
+			name = Debug;
+		};
+		857860CD1D86C7EC001F6C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7J476239ZT;
+				INFOPLIST_FILE = SickleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.emeraude.SickleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sickle.app/Contents/MacOS/Sickle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		857860A91D86C7EC001F6C84 /* Build configuration list for PBXProject "Sickle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857860C61D86C7EC001F6C84 /* Debug */,
+				857860C71D86C7EC001F6C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		857860C81D86C7EC001F6C84 /* Build configuration list for PBXNativeTarget "Sickle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857860C91D86C7EC001F6C84 /* Debug */,
+				857860CA1D86C7EC001F6C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		857860CB1D86C7EC001F6C84 /* Build configuration list for PBXNativeTarget "SickleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857860CC1D86C7EC001F6C84 /* Debug */,
+				857860CD1D86C7EC001F6C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 857860A61D86C7EC001F6C84 /* Project object */;
+}
